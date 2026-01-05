@@ -45,5 +45,3 @@ with mlflow.start_run():
     mlflow.log_artifacts(__file__)
 
     print(accuracy)
-
-
